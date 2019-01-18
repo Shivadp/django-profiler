@@ -6,7 +6,7 @@ import functools
 try:
     from cStringIO import StringIO
 except ImportError:
-    from StringIO import StringIO
+    from io import StringIO
 try:
     import cProfile as profile_module
 except ImportError:
